@@ -1,0 +1,23 @@
+Fulano; dos Santos Souza;0;85449320027;DF;16/11/2005;1;0123456789;58057303;0
+
+Carlos;Silva;0;12345678901;SP;05/05/1980;1;9876543210;01001000;1;12345678901
+
+Mariana;Souza;0;32165498700;MG;02/11/1985;0;30130000;1;12345678900
+
+Pedro;Farias;0;12345678911;DF;02/12/1984;0;30130000;1;98765432100
+
+John;Doe;1;AB123456;EUA;01/01/2000;0;10001000;0
+
+Carlos;Santos;0;98765432100;RJ;23/09/1998;1;laudo123;22041000;0
+
+código;nome;carga;PIS
+12345;Matematica;12;12345678900
+
+Caso seja Brasileiro, não PcD e é um aluno:
+nome;sobrenome;0;CPF;sigla_estado;DD/MM/AAAA;0;CEP;0
+● Caso seja Brasileiro, PcD e é um aluno:
+nome;sobrenome;0;CPF;sigla_estado;DD/MM/AAAA;1;LAUDO;CEP;0
+● Caso seja Brasileiro, não PcD e é um professor:
+nome;sobrenome;0;CPF;sigla_estado;DD/MM/AAAA;0;CEP;1;PIS
+● Caso seja Brasileiro, PcD e é um professor:
+nome;sobrenome;0;CPF;sigla_estado;DD/MM/AAAA;1;LAUDO;CEP;1;PIS
